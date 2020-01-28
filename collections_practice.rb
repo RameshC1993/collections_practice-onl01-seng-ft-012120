@@ -67,6 +67,7 @@ def add_s(array)
       array[index] = element + "s"
       
       end
+    end
       return array
 end
 
