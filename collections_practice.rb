@@ -52,5 +52,12 @@ def find_a(array)
   end
   return new_arr
 end
+
+def sum_array(array)
+  total = 0 
+  array.each do |num|
+    total += num
+  end
+end
   
 
