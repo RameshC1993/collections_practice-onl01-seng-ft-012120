@@ -58,6 +58,7 @@ def sum_array(array)
   array.each do |num|
     total += num
   end
+  return total
 end
   
 
