@@ -42,3 +42,15 @@ def kesha_maker(array)
   end
   return new_arr
 end
+
+def find_a(array)
+  new_arr = []
+  array.each do |string|
+    if string[0] == "a"
+      new_arr << string
+    end
+  end
+  return new_arr
+end
+  
+
